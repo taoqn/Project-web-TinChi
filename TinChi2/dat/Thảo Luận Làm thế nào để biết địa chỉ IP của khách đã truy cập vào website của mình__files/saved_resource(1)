@@ -1,0 +1,12 @@
+      
+// extra tag for debug request fallback
+
+   		 var GM_z3rd_1407405582 = '\x3Cscript type\x3D\x22text/javascript\x22\x3E\nvar _abd \x3D _abd || [];\n/* load placement for account: youthclass, site: http://phimmoi.net, size: 1x1 - web, zone: popup */\n_abd.push([\x221385700597\x22,\x22Popup\x22,\x221385973822\x22]);\n\x3C/script\x3E\n\x3Cscript src\x3D\x22http://media.adnetwork.vn/js/adnetwork.js\x22 type\x3D\x22text/javascript\x22\x3E\x3C/script\x3E\n\x3Cnoscript\x3E\x3Cdiv style\x3D\x22bottom:0;position: fixed;right: 0;\x22\x3E\x3Ca href\x3D\x22http://track.adnetwork.vn/247/adServerNs/zid_1385973822/wid_1385700597/\x22 target\x3D\x22_blank\x22\x3E\x3Cimg src\x3D\x22http://delivery.adnetwork.vn/247/noscript/zid_1385973822/wid_1385700597/\x22 /\x3E\x3C/a\x3E\x3C/div\x3E\x3C/noscript\x3E';
+   		 var GM_zid_1407405582  = 1407405582;
+   		 var GM_ZoneId  = 1407405582;
+		 AdSeax.setCookie('_a3rd1407405582', '0-9', 365);
+		document.write(GM_z3rd_1407405582);
+      
+          document.write('<img src="http://cm.gammaplatform.com/adx/send?pid=2" width="1px" height="1px"/>');
+    
+var GM_iWebsiteId = 1401788716;

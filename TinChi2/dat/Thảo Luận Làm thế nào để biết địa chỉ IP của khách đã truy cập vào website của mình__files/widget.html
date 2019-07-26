@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)http://www.phimmoi.net/widget.php -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Phim bộ mới</title><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="robots" content="noindex, follow"><!--<base href="http://www.phimmoi.net/">--><base href="."><script type="text/javascript"><!--
+var _b = document.getElementsByTagName('base')[0], _bH = "http://www.phimmoi.net/";
+if (_b && _b.href != _bH) _b.href = _bH;
+--></script><style type="text/css"><!--
+body
+{
+font-family: Arial, sans-serif;
+font-size: 14px;
+line-height: 1.3;
+margin: 0;
+padding: 0;
+background: #4F4E52 url('styles/vtlai/movie/img/item_bg.gif') repeat;
+}
+*
+{
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+}
+.head-title
+{
+padding: 3px 5px;
+margin: 0;
+color: #dacb46;
+text-shadow: 1px 1px 1px #1a1a1a;
+display: inline-block;
+font-size: 120%px;
+text-transform: uppercase;
+}
+#widget-wraper
+{
+margin:0;
+padding: 0 5px;
+display: block;
+width: 100%;
+position: relative;
+}
+.widget-list
+{
+display: block;
+list-style: none;
+margin: 0;
+padding: 0;
+-webkit-margin-before: 0;
+-webkit-margin-after: 0;
+-webkit-margin-start: 0;
+-webkit-margin-end: 0;
+-webkit-padding-start: 0;
+white-space: nowrap;
+}
+.widget-item
+{
+display: inline-block;
+width: 150px;
+height: 200px;
+position: relative;
+margin-right: 5px;
+}
+.widget-item:last-child
+{
+margin-right: 0;
+}
+.item-link
+{
+display: block;
+width: 100%;
+height: 100%;
+margin: 0;
+padding: 0;
+}
+.item-link > .item-image
+{
+display: block;
+width: 100%;
+height: 100%;
+background-repeat: no-repeat;
+background-color: #080808;
+background-size: cover;
+}
+.item-link > .title-wrapper
+{
+display: block;
+background-color: rgba(0,0,0,0.7);
+position: absolute;
+width: 100%;
+overflow: hidden;
+bottom: 0;
+padding: 0 2px;
+}
+.item-link > .title-wrapper > .title
+{
+display: block;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+width: 100%;
+color: #FF8040;
+text-transform: uppercase;
+font-size: 14px;
+font-weight: 700;
+text-decoration: none;
+margin: 5px 0px;
+}
+.item-link > .title-wrapper > .english-title
+{
+color: #fff;
+font-size: 12px;
+display: block;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+width: 100%;
+text-decoration: none;
+margin: 5px 0px;
+}
+.item-link:hover > .title-wrapper
+{
+background-color: rgba(0,0,0,0.9);
+}
+.item-link:hover .title
+{
+color: #dacb46;;
+}
+.promo-text
+{
+display: block;
+position: absolute;
+color: #fff;
+background: #D9534F;
+font-size: 11px;
+font-weight: bold;
+float: left;
+clear: both;
+padding: 4px;
+text-shadow: 0 -1px #d0284b, 0 1px #f96080;
+left: 0px;
+top: 5px;
+}
+.promo-text:after
+{
+content: "";
+float: right;
+position: absolute;
+top: 0;
+right: -12px;
+width: 0;
+height: 0;
+border-color: transparent transparent transparent #D9534F;
+border-style: solid;
+border-width: 11px 0 12px 12px;
+}
+#prev,#next
+{
+position: absolute;
+outline: none;
+cursor: pointer;
+display: block;
+padding: 30px 10px;
+background-color: rgba(0,0,0,0.6);
+}
+#prev
+{
+left: 0;
+top: 50%;
+margin-top: -68px;
+}
+#next
+{
+right: 0;
+top: 50%;
+margin-top: -68px;
+}
+.prev-icon,.next-icon
+{
+height: 24px;
+width: 16px;
+display: block;
+background: url(styles/vtlai/movie/img/image.png) no-repeat;
+}
+.prev-icon
+{
+background-position: -2px -535px;
+}
+.next-icon
+{
+background-position: -23px -535px;
+}
+--></style><link href="owl.carousel.css" rel="stylesheet"><link href="owl.theme.css" rel="stylesheet"><link href="owl.transitions.css" rel="stylesheet"><script type="text/javascript" src="jquery-1.10.2.min.js"></script><script type="text/javascript" src="owl.carousel.min.js"></script><script type="text/javascript"><!--
+jQuery(document).ready(function() {
+var custom=[];
+var i=1;
+var width=i*155-5;
+while(width<=2560)
+{
+custom.push([width,i]);
+i++;
+width=i*155-5;
+}
+jQuery("#widget").owlCarousel({
+stopOnHover : true,
+itemsCustom: custom,
+navigation:false,
+slideSpeed:500,
+paginationSpeed : 500,
+rewindSpeed: 500,
+goToFirstSpeed : 500,
+scrollPerPage: true,
+singleItem : false,
+autoHeight : true,
+transitionStyle:"fade"
+});
+var listObject = jQuery("#widget");
+jQuery("#next").click(function(){
+listObject.trigger('owl.next');
+});
+jQuery("#prev").click(function(){
+listObject.trigger('owl.prev');
+})
+});
+--></script></head><body><h2 class="head-title">Phim bộ mới</h2><div id="widget-wraper"><ul class="widget-list owl-carousel owl-theme" id="widget" style="opacity: 1; display: block;"><div class="owl-wrapper-outer autoHeight" style="height: 204px;"><div class="owl-wrapper" style="width: 9660px; left: 0px; display: block;"><div class="owl-item" style="width: 161px;"><li class="widget-item"><a target="_blank" class="item-link" href="http://www.phimmoi.net/phim/lang-nha-bang-3125/?utm_source=sinhvienit.net&utm_medium=referral&utm_campaign=iframeAd" title="Lang Nha Bảng-Nirvana in Fire"><div class="item-image" style="background-image: url(&#39;https://images2-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;gadget=a&amp;no_expand=1&amp;refresh=604800&amp;url=https://lh3.googleusercontent.com/-BII1XSoakO4/Vf3vXz8ZX0I/AAAAAAAASPU/JZt_vveCUtg/s0/PhimMoi.Net--3125-poster.thumb.jpg&#39;)"></div><div class="title-wrapper"><span class="title">Lang Nha Bảng</span><span class="english-title">Nirvana in Fire</span></div></a><span class="promo-text">HD-Vietsub | Tập 42/54</span></li></div><div class="owl-item" style="width: 161px;"><li class="widget-item"><a target="_blank" class="item-link" href="http://www.phimmoi.net/phim/mui-ten-xanh-phan-4-3154/?utm_source=sinhvienit.net&utm_medium=referral&utm_campaign=iframeAd" title="Mũi tên xanh (Phần 4)-Arrow (Season 4)"><div class="item-image" style="background-image: url(&#39;https://images2-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;gadget=a&amp;no_expand=1&amp;refresh=604800&amp;url=https://lh3.googleusercontent.com/-XZ85GZWrmjg/VhePFeoy6pI/AAAAAAAAS4k/zH3MvPNV1MQ/s0/PhimMoi.Net--3154-poster.thumb.jpg&#39;)"></div><div class="title-wrapper"><span class="title">Mũi tên xanh (Phần 4)</span><span class="english-title">Arrow (Season 4)</span></div></a><span class="promo-text">HD-Vietsub | Tập 1/23</span></li></div><div class="owl-item" style="width: 161px;"><li class="widget-item"><a target="_blank" class="item-link" href="http://www.phimmoi.net/phim/nhung-nguoi-hung-tai-sinh-2875/?utm_source=sinhvienit.net&utm_medium=referral&utm_campaign=iframeAd" title="Những Người Hùng Tái Sinh-Heroes Reborn"><div class="item-image" style="background-image: url(&#39;https://images2-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;gadget=a&amp;no_expand=1&amp;refresh=604800&amp;url=https://lh3.googleusercontent.com/-xSeIaBb3TR4/Vc9S4vdV3JI/AAAAAAAAPsM/sH8sPL6UJNA/s0/PhimMoi.Net--2875-poster.thumb.jpg&#39;)"></div><div class="title-wrapper"><span class="title">Những Người Hùng Tái Sinh</span><span class="english-title">Heroes Reborn</span></div></a><span class="promo-text">HD-Vietsub | Tập 4/13</span></li></div><div class="owl-item" style="width: 161px;"><li class="widget-item"><a target="_blank" class="item-link" href="http://www.phimmoi.net/phim/ky-si-khong-dau-2-1722/?utm_source=sinhvienit.net&utm_medium=referral&utm_campaign=iframeAd" title="Kỵ sĩ không đầu 2-Sleepy Hollow (Season 2)"><div class="item-image" style="background-image: url(&#39;https://images2-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;gadget=a&amp;no_expand=1&amp;refresh=604800&amp;url=https://lh3.googleusercontent.com/-YwuNXOtk9hM/VWtCwSvks8I/AAAAAAAAHZg/7YeV86ng9VA/s0/PhimMoi.Net--1722-poster.thumb.jpg&#39;)"></div><div class="title-wrapper"><span class="title">Kỵ sĩ không đầu 2</span><span class="english-title">Sleepy Hollow (Season 2)</span></div></a><span class="promo-text">HD-Vietsub | Tập 14/18</span></li></div><div class="owl-item" style="width: 161px;"><li class="widget-item"><a target="_blank" class="item-link" href="http://www.phimmoi.net/phim/six-flying-dragons-3152/?utm_source=sinhvienit.net&utm_medium=referral&utm_campaign=iframeAd" title="Lục long phi thiên-Six Flying Dragons"><div class="item-image" style="background-image: url(&#39;https://images2-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;gadget=a&amp;no_expand=1&amp;refresh=604800&amp;url=https://lh3.googleusercontent.com/-lgU6pt2bKME/VhPoY_jOEjI/AAAAAAAAS0M/6yTZ4bcexys/s0/PhimMoi.Net--3152-poster.thumb.jpg&#39;)"></div><div class="title-wrapper"><span class="title">Lục long phi thiên</span><span class="english-title">Six Flying Dragons</span></div></a><span class="promo-text">HD-Vietsub | Tập 2/50</span></li></div><div class="owl-item" style="width: 161px;"><li class="widget-item"><a target="_blank" class="item-link" href="http://www.phimmoi.net/phim/minh-nhuoc-hieu-khe-3095/?utm_source=sinhvienit.net&utm_medium=referral&utm_campaign=iframeAd" title="Minh Nhược Hiểu Khê-Moon River"><div class="item-image" style="background-image: url(&#39;https://images2-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;gadget=a&amp;no_expand=1&amp;refresh=604800&amp;url=https://lh3.googleusercontent.com/-8ggaxYJlqvc/Ve95pd25xmI/AAAAAAAARpQ/qr5rfjB_Tz4/s0/PhimMoi.Net--3095-poster.thumb.jpg&#39;)"></div><div class="title-wrapper"><span class="title">Minh Nhược Hiểu Khê</span><span class="english-title">Moon River</span></div></a><span class="promo-text">HD-Vietsub | Tập 20/29</span></li></div><div class="owl-item" style="width: 161px;"><li class="widget-item"><a target="_blank" class="item-link" href="http://www.phimmoi.net/phim/bi-mat-cua-lang-achiara-3118/?utm_source=sinhvienit.net&utm_medium=referral&utm_campaign=iframeAd" title="Bí mật của làng Achiara-The Village: Achiara&#39;s Secret"><div class="item-image" style="background-image: url(&#39;https://images2-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;gadget=a&amp;no_expand=1&amp;refresh=604800&amp;url=https://lh3.googleusercontent.com/-mRApoMWBEFk/VhVu3bXaQkI/AAAAAAAAS2w/AHU2ANw1LjQ/s0/PhimMoi.Net--3118-poster.thumb.jpg&#39;)"></div><div class="title-wrapper"><span class="title">Bí mật của làng Achiara</span><span class="english-title">The Village: Achiara's Secret</span></div></a><span class="promo-text">HD-Vietsub | Tập 2/16</span></li></div><div class="owl-item" style="width: 161px;"><li class="widget-item"><a target="_blank" class="item-link" href="http://www.phimmoi.net/phim/sat-nhan-truong-hoc-phan-1-3131/?utm_source=sinhvienit.net&utm_medium=referral&utm_campaign=iframeAd" title="Sát Nhân Trường Học (Phần 1)-Scream Queens (Season 1)"><div class="item-image" style="background-image: url(&#39;https://images2-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;gadget=a&amp;no_expand=1&amp;refresh=604800&amp;url=https://lh3.googleusercontent.com/-IeHZCMvZQes/VgOwqlYTy7I/AAAAAAAASZM/nsPvJW65W3A/s0/PhimMoi.Net--3131-poster.thumb.jpg&#39;)"></div><div class="title-wrapper"><span class="title">Sát Nhân Trường Học (Phần 1)</span><span class="english-title">Scream Queens (Season 1)</span></div></a><span class="promo-text">HD-Vietsub | Tập 4</span></li></div><div class="owl-item" style="width: 161px;"><li class="widget-item"><a target="_blank" class="item-link" href="http://www.phimmoi.net/phim/van-trung-ca-3060/?utm_source=sinhvienit.net&utm_medium=referral&utm_campaign=iframeAd" title="Vân Trung Ca-Cloud in the Song"><div class="item-image" style="background-image: url(&#39;https://images2-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;gadget=a&amp;no_expand=1&amp;refresh=604800&amp;url=https://lh3.googleusercontent.com/-5X5IhTTFz0E/VgBk6vA-7oI/AAAAAAAASQg/qRpmkgyCIAw/s0/PhimMoi.Net--3060-poster.thumb.jpg&#39;)"></div><div class="title-wrapper"><span class="title">Vân Trung Ca</span><span class="english-title">Cloud in the Song</span></div></a><span class="promo-text">HD-Vietsub | Tập 16/50</span></li></div><div class="owl-item" style="width: 161px;"><li class="widget-item"><a target="_blank" class="item-link" href="http://www.phimmoi.net/phim/sieu-nhien-phan-11-3111/?utm_source=sinhvienit.net&utm_medium=referral&utm_campaign=iframeAd" title="Siêu nhiên (Phần 11)-Supernatural (Season 11)"><div class="item-image" style="background-image: url(&#39;https://images2-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;gadget=a&amp;no_expand=1&amp;refresh=604800&amp;url=https://lh3.googleusercontent.com/-r5fWam4A3co/VfYDFcEmF9I/AAAAAAAAR40/TIhm6Tz1zH0/s0/PhimMoi.Net--3111-poster.thumb.jpg&#39;)"></div><div class="title-wrapper"><span class="title">Siêu nhiên (Phần 11)</span><span class="english-title">Supernatural (Season 11)</span></div></a><span class="promo-text">HD-Vietsub | Tập 1</span></li></div><div class="owl-item" style="width: 161px;"><li class="widget-item"><a target="_blank" class="item-link" href="http://www.phimmoi.net/phim/doi-dac-nhiem-shield-phan-3-3132/?utm_source=sinhvienit.net&utm_medium=referral&utm_campaign=iframeAd" title="Đội Đặc Nhiệm SHIELD (Phần 3)-Marvel&#39;s Agents Of S.H.I.E.L.D (Season 3)"><div class="item-image" style="background-image: url(&#39;https://images2-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;gadget=a&amp;no_expand=1&amp;refresh=604800&amp;url=https://lh3.googleusercontent.com/-qdwJ2Z72Ny0/Vgws2VXUwiI/AAAAAAAASaY/osYPQ7q6woU/s0/PhimMoi.Net--3132-poster.thumb.jpg&#39;)"></div><div class="title-wrapper"><span class="title">Đội Đặc Nhiệm SHIELD (Phần 3)</span><span class="english-title">Marvel's Agents Of S.H.I.E.L.D (Season 3)</span></div></a><span class="promo-text">HD-Vietsub | Tập 2/22</span></li></div><div class="owl-item" style="width: 161px;"><li class="widget-item"><a target="_blank" class="item-link" href="http://www.phimmoi.net/phim/cheer-up-3126/?utm_source=sinhvienit.net&utm_medium=referral&utm_campaign=iframeAd" title="Vũ điệu tuổi trẻ-Cheer Up! / Sassy Go Go"><div class="item-image" style="background-image: url(&#39;https://images2-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;gadget=a&amp;no_expand=1&amp;refresh=604800&amp;url=https://lh3.googleusercontent.com/-W3INqyFjxq0/VgH4gMhqooI/AAAAAAAASRM/HnnRNpGHlI0/s0/PhimMoi.Net--3126-poster.thumb.jpg&#39;)"></div><div class="title-wrapper"><span class="title">Vũ điệu tuổi trẻ</span><span class="english-title">Cheer Up! / Sassy Go Go</span></div></a><span class="promo-text">HD-Vietsub | Tập 2/16</span></li></div><div class="owl-item" style="width: 161px;"><li class="widget-item"><a target="_blank" class="item-link" href="http://www.phimmoi.net/phim/fear-the-walking-dead-season-1-3018/?utm_source=sinhvienit.net&utm_medium=referral&utm_campaign=iframeAd" title="Xác sống đáng sợ (Phần 1)-Fear the Walking Dead (Season 1)"><div class="item-image" style="background-image: url(&#39;https://images2-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;gadget=a&amp;no_expand=1&amp;refresh=604800&amp;url=https://lh3.googleusercontent.com/-h6tfeQjjPQg/VcgW2DIJEaI/AAAAAAAAO-o/ajOrpq2zfmw/s0/PhimMoi.Net--3018-poster.thumb.jpg&#39;)"></div><div class="title-wrapper"><span class="title">Xác sống đáng sợ (Phần 1)</span><span class="english-title">Fear the Walking Dead (Season 1)</span></div></a><span class="promo-text">HD-Vietsub | Tập 6/6</span></li></div><div class="owl-item" style="width: 161px;"><li class="widget-item"><a target="_blank" class="item-link" href="http://www.phimmoi.net/phim/tri-luc-sieu-pham-phan-1-3133/?utm_source=sinhvienit.net&utm_medium=referral&utm_campaign=iframeAd" title="Trí lực siêu phàm (Phần 1)-Limitless (Season 1)"><div class="item-image" style="background-image: url(&#39;https://images2-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;gadget=a&amp;no_expand=1&amp;refresh=604800&amp;url=https://lh3.googleusercontent.com/-V7ACShGEZqM/Vg6iZEMWRTI/AAAAAAAAScQ/1UdJGDEU1Iw/s0/PhimMoi.Net--3133-poster.thumb.jpg&#39;)"></div><div class="title-wrapper"><span class="title">Trí lực siêu phàm (Phần 1)</span><span class="english-title">Limitless (Season 1)</span></div></a><span class="promo-text">HD-Vietsub | Tập 3/7</span></li></div><div class="owl-item" style="width: 161px;"><li class="widget-item"><a target="_blank" class="item-link" href="http://www.phimmoi.net/phim/izombie-phan-2-3147/?utm_source=sinhvienit.net&utm_medium=referral&utm_campaign=iframeAd" title="Ăn não (Phần 2)-iZombie (Season 2)"><div class="item-image" style="background-image: url(&#39;https://images2-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;gadget=a&amp;no_expand=1&amp;refresh=604800&amp;url=https://lh3.googleusercontent.com/-7skN3uhoJ-s/VhKddSYLtFI/AAAAAAAASvY/mbPTHTKwUwg/s0/PhimMoi.Net--3147-poster.thumb.jpg&#39;)"></div><div class="title-wrapper"><span class="title">Ăn não (Phần 2)</span><span class="english-title">iZombie (Season 2)</span></div></a><span class="promo-text">HD-Vietsub | Tập 1/6</span></li></div><div class="owl-item" style="width: 161px;"><li class="widget-item"><a target="_blank" class="item-link" href="http://www.phimmoi.net/phim/tham-tu-ngoai-cam-2-3051/?utm_source=sinhvienit.net&utm_medium=referral&utm_campaign=iframeAd" title="Thám tử ngoại cảm 2-Cheo Yong 2"><div class="item-image" style="background-image: url(&#39;https://images2-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;gadget=a&amp;no_expand=1&amp;refresh=604800&amp;url=https://lh3.googleusercontent.com/-dTdFZziHTi8/VdHFIE8lo4I/AAAAAAAAP04/OOmwrHGyr5g/s0/PhimMoi.Net--3051-poster.thumb.jpg&#39;)"></div><div class="title-wrapper"><span class="title">Thám tử ngoại cảm 2</span><span class="english-title">Cheo Yong 2</span></div></a><span class="promo-text">HD-Vietsub | Tập 7/10</span></li></div><div class="owl-item" style="width: 161px;"><li class="widget-item"><a target="_blank" class="item-link" href="http://www.phimmoi.net/phim/cong-thoi-gian-phan-4-3085/?utm_source=sinhvienit.net&utm_medium=referral&utm_campaign=iframeAd" title="Cổng thời gian (Phần 4)-Continuum (Season 4)"><div class="item-image" style="background-image: url(&#39;https://images2-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;gadget=a&amp;no_expand=1&amp;refresh=604800&amp;url=https://lh3.googleusercontent.com/-IGz4z1VNA1Q/VeVL4un3gkI/AAAAAAAARTc/I9Xi_05MX5E/s0/PhimMoi.Net--3085-poster.thumb.jpg&#39;)"></div><div class="title-wrapper"><span class="title">Cổng thời gian (Phần 4)</span><span class="english-title">Continuum (Season 4)</span></div></a><span class="promo-text">HD-Vietsub | Tập 5/6</span></li></div><div class="owl-item" style="width: 161px;"><li class="widget-item"><a target="_blank" class="item-link" href="http://www.phimmoi.net/phim/bo-cap-phan-2-3130/?utm_source=sinhvienit.net&utm_medium=referral&utm_campaign=iframeAd" title="Bọ cạp (Phần 2)-Scorpion (Season 2)"><div class="item-image" style="background-image: url(&#39;https://images2-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;gadget=a&amp;no_expand=1&amp;refresh=604800&amp;url=https://lh3.googleusercontent.com/-3aZtPAxFvII/VgMSsbtj-QI/AAAAAAAASXQ/T9SAqr4HhhQ/s0/PhimMoi.Net--3130-poster.thumb.jpg&#39;)"></div><div class="title-wrapper"><span class="title">Bọ cạp (Phần 2)</span><span class="english-title">Scorpion (Season 2)</span></div></a><span class="promo-text">HD-Vietsub | Tập 3</span></li></div><div class="owl-item" style="width: 161px;"><li class="widget-item"><a target="_blank" class="item-link" href="http://www.phimmoi.net/phim/benh-dich-ma-ca-rong-chung-virus-phan-2-2696/?utm_source=sinhvienit.net&utm_medium=referral&utm_campaign=iframeAd" title="Bệnh dịch ma cà rồng (Chủng virus) (Phần 2)-The Strain (Season 2)"><div class="item-image" style="background-image: url(&#39;https://images2-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;gadget=a&amp;no_expand=1&amp;refresh=604800&amp;url=https://lh3.googleusercontent.com/-CibWv1aoBuA/VdNc76TgqeI/AAAAAAAAP90/baqjTm06SH8/s0/PhimMoi.Net--2696-poster.thumb.jpg&#39;)"></div><div class="title-wrapper"><span class="title">Bệnh dịch ma cà rồng (Chủng virus) (Phần 2)</span><span class="english-title">The Strain (Season 2)</span></div></a><span class="promo-text">HD-Vietsub | Tập 13/13</span></li></div><div class="owl-item" style="width: 161px;"><li class="widget-item"><a target="_blank" class="item-link" href="http://www.phimmoi.net/phim/thanh-pho-toi-loi-phan-2-3120/?utm_source=sinhvienit.net&utm_medium=referral&utm_campaign=iframeAd" title="Thành phố tội lỗi (Phần 2)-Gotham (Season 2)"><div class="item-image" style="background-image: url(&#39;https://images2-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;gadget=a&amp;no_expand=1&amp;refresh=604800&amp;url=https://lh3.googleusercontent.com/-Yt25KlrIQzE/Vfme_lGwvgI/AAAAAAAASIA/o7Semxxrepw/s0/PhimMoi.Net--3120-poster.thumb.jpg&#39;)"></div><div class="title-wrapper"><span class="title">Thành phố tội lỗi (Phần 2)</span><span class="english-title">Gotham (Season 2)</span></div></a><span class="promo-text">HD-Vietsub | Tập 3/22</span></li></div><div class="owl-item" style="width: 161px;"><li class="widget-item"><a target="_blank" class="item-link" href="http://www.phimmoi.net/phim/tan-nuong-ngo-ngao-3159/?utm_source=sinhvienit.net&utm_medium=referral&utm_campaign=iframeAd" title="Tân nương ngổ ngáo-Bratty Bride"><div class="item-image" style="background-image: url(&#39;https://images2-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;gadget=a&amp;no_expand=1&amp;refresh=604800&amp;url=https://lh3.googleusercontent.com/--Ek3mF9hfmU/VhgR3Eztm7I/AAAAAAAAS-E/pLoql1w2fWU/s0/PhimMoi.Net--3159-poster.thumb.jpg&#39;)"></div><div class="title-wrapper"><span class="title">Tân nương ngổ ngáo</span><span class="english-title">Bratty Bride</span></div></a><span class="promo-text">HD-Vietsub | Tập 22/34</span></li></div><div class="owl-item" style="width: 161px;"><li class="widget-item"><a target="_blank" class="item-link" href="http://www.phimmoi.net/phim/han-so-truyen-ky-han-so-tranh-hung-3156/?utm_source=sinhvienit.net&utm_medium=referral&utm_campaign=iframeAd" title="Hán Sở truyền kỳ / Hán Sở tranh hùng-Legend Of Chu And Han"><div class="item-image" style="background-image: url(&#39;https://images2-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;gadget=a&amp;no_expand=1&amp;refresh=604800&amp;url=https://lh3.googleusercontent.com/-BoPRl1DlXUg/VhgHF2hcvkI/AAAAAAAAS7o/QTjpPAz6LYE/s0/PhimMoi.Net--3156-poster.thumb.jpg&#39;)"></div><div class="title-wrapper"><span class="title">Hán Sở truyền kỳ / Hán Sở tranh hùng</span><span class="english-title">Legend Of Chu And Han</span></div></a><span class="promo-text">HD-Thuyết minh | Tập 80/80</span></li></div><div class="owl-item" style="width: 161px;"><li class="widget-item"><a target="_blank" class="item-link" href="http://www.phimmoi.net/phim/cuoc-chien-zombie-phan-2-3107/?utm_source=sinhvienit.net&utm_medium=referral&utm_campaign=iframeAd" title="Cuộc chiến Zombie (Phần 2)-Z Nation (Season 2)"><div class="item-image" style="background-image: url(&#39;https://images2-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;gadget=a&amp;no_expand=1&amp;refresh=604800&amp;url=https://lh3.googleusercontent.com/-oFcgnnWIekY/VfQFi8nVsOI/AAAAAAAARyM/Y2AWxblChIA/s0/PhimMoi.Net--3107-poster.thumb.jpg&#39;)"></div><div class="title-wrapper"><span class="title">Cuộc chiến Zombie (Phần 2)</span><span class="english-title">Z Nation (Season 2)</span></div></a><span class="promo-text">HD-Vietsub | Tập 4/13</span></li></div><div class="owl-item" style="width: 161px;"><li class="widget-item"><a target="_blank" class="item-link" href="http://www.phimmoi.net/phim/nguoi-hung-tia-chop-phan-2-3151/?utm_source=sinhvienit.net&utm_medium=referral&utm_campaign=iframeAd" title="Người hùng tia chớp (Phần 2)-The Flash (Season 2)"><div class="item-image" style="background-image: url(&#39;https://images2-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;gadget=a&amp;no_expand=1&amp;refresh=604800&amp;url=https://lh3.googleusercontent.com/-99Q1j5F2Zd4/VhOJPOGA4qI/AAAAAAAASzA/Kb6aU1o7R9c/s0/PhimMoi.Net--3151-poster.thumb.jpg&#39;)"></div><div class="title-wrapper"><span class="title">Người hùng tia chớp (Phần 2)</span><span class="english-title">The Flash (Season 2)</span></div></a><span class="promo-text">HD-Vietsub | Tập 1/19</span></li></div><div class="owl-item" style="width: 161px;"><li class="widget-item"><a target="_blank" class="item-link" href="http://www.phimmoi.net/phim/ke-nguy-trang-3121/?utm_source=sinhvienit.net&utm_medium=referral&utm_campaign=iframeAd" title="Kẻ Ngụy Trang-The Disguiser"><div class="item-image" style="background-image: url(&#39;https://images2-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;gadget=a&amp;no_expand=1&amp;refresh=604800&amp;url=https://lh3.googleusercontent.com/-7ImJD4IfWdI/VfoW_9TkZiI/AAAAAAAASJ4/eJdG1xX8w0E/s0/PhimMoi.Net--3121-poster.thumb.jpg&#39;)"></div><div class="title-wrapper"><span class="title">Kẻ Ngụy Trang</span><span class="english-title">The Disguiser</span></div></a><span class="promo-text">HD-Vietsub | Tập 41/41</span></li></div><div class="owl-item" style="width: 161px;"><li class="widget-item"><a target="_blank" class="item-link" href="http://www.phimmoi.net/phim/she-was-pretty-3103/?utm_source=sinhvienit.net&utm_medium=referral&utm_campaign=iframeAd" title="Cô ấy từng xinh đẹp / Xưa rồi em-She Was Pretty"><div class="item-image" style="background-image: url(&#39;https://images2-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;gadget=a&amp;no_expand=1&amp;refresh=604800&amp;url=https://lh3.googleusercontent.com/-e2W1QmPKt78/VfLy3ILmlNI/AAAAAAAARtc/inx0lZIvlQI/s0/PhimMoi.Net--3103-poster.thumb.jpg&#39;)"></div><div class="title-wrapper"><span class="title">Cô ấy từng xinh đẹp / Xưa rồi em</span><span class="english-title">She Was Pretty</span></div></a><span class="promo-text">HD-Vietsub | Tập 8/16</span></li></div><div class="owl-item" style="width: 161px;"><li class="widget-item"><a target="_blank" class="item-link" href="http://www.phimmoi.net/phim/bo-bo-kinh-tinh-bo-bo-kinh-tam-2-3157/?utm_source=sinhvienit.net&utm_medium=referral&utm_campaign=iframeAd" title="Bộ bộ kinh tình / Bộ bộ kinh tâm 2-Bu Bu Jing Qing / Scarlet Heart 2"><div class="item-image" style="background-image: url(&#39;https://images2-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;gadget=a&amp;no_expand=1&amp;refresh=604800&amp;url=https://lh3.googleusercontent.com/-PdDTbkRikG4/VhgDywBjrRI/AAAAAAAAS6g/QNOoA4rJJF8/s0/PhimMoi.Net--3157-poster.thumb.jpg&#39;)"></div><div class="title-wrapper"><span class="title">Bộ bộ kinh tình / Bộ bộ kinh tâm 2</span><span class="english-title">Bu Bu Jing Qing / Scarlet Heart 2</span></div></a><span class="promo-text">HD-Vietsub | Tập 39/39</span></li></div><div class="owl-item" style="width: 161px;"><li class="widget-item"><a target="_blank" class="item-link" href="http://www.phimmoi.net/phim/tinh-yeu-khong-co-loi-loi-o-ban-than-3153/?utm_source=sinhvienit.net&utm_medium=referral&utm_campaign=iframeAd" title="Tình Yêu Không Có Lỗi, Lỗi Ở... Bạn Thân-The Fault, Dear Friend"><div class="item-image" style="background-image: url(&#39;https://images2-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;gadget=a&amp;no_expand=1&amp;refresh=604800&amp;url=https://lh3.googleusercontent.com/-9m0Tmr38Hlc/VhQLFQ6cVRI/AAAAAAAAS2A/Bq09RNMMCMw/s0/PhimMoi.Net--3153-poster.thumb.jpg&#39;)"></div><div class="title-wrapper"><span class="title">Tình Yêu Không Có Lỗi, Lỗi Ở... Bạn Thân</span><span class="english-title">The Fault, Dear Friend</span></div></a><span class="promo-text">HD-Vietsub | Tập 4/4</span></li></div><div class="owl-item" style="width: 161px;"><li class="widget-item"><a target="_blank" class="item-link" href="http://www.phimmoi.net/phim/naruto-shippuden-2297/?utm_source=sinhvienit.net&utm_medium=referral&utm_campaign=iframeAd" title="Naruto Shippuden-Naruto Shippuuden"><div class="item-image" style="background-image: url(&#39;https://images2-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;gadget=a&amp;no_expand=1&amp;refresh=604800&amp;url=https://lh3.googleusercontent.com/-8oML9BcVmzc/VWsRjTpD7oI/AAAAAAAACA8/fe8GPq83LMw/s0/PhimMoi.Net--2297-poster.thumb.jpg&#39;)"></div><div class="title-wrapper"><span class="title">Naruto Shippuden</span><span class="english-title">Naruto Shippuuden</span></div></a><span class="promo-text">HD-Vietsub | Tập 433</span></li></div><div class="owl-item" style="width: 161px;"><li class="widget-item"><a target="_blank" class="item-link" href="http://www.phimmoi.net/phim/toi-co-nguoi-yeu-roi-em-da-biet-yeu-3053/?utm_source=sinhvienit.net&utm_medium=referral&utm_campaign=iframeAd" title="Tôi có người yêu rồi / Em Đã Biết Yêu-I Have a Lover"><div class="item-image" style="background-image: url(&#39;https://images2-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;gadget=a&amp;no_expand=1&amp;refresh=604800&amp;url=https://lh3.googleusercontent.com/-HgmIGtkmMjg/VdJG-Vs8GPI/AAAAAAAAP7k/lE9isn4BwV0/s0/PhimMoi.Net--3053-poster.thumb.jpg&#39;)"></div><div class="title-wrapper"><span class="title">Tôi có người yêu rồi / Em Đã Biết Yêu</span><span class="english-title">I Have a Lover</span></div></a><span class="promo-text">HD-Vietsub | Tập 11/50</span></li></div></div></div><div class="owl-controls clickable"><div class="owl-pagination"><div class="owl-page active"><span class=""></span></div><div class="owl-page"><span class=""></span></div><div class="owl-page"><span class=""></span></div><div class="owl-page"><span class=""></span></div><div class="owl-page"><span class=""></span></div></div></div></ul><span id="prev"><span class="prev-icon"></span></span><span id="next"><span class="next-icon"></span></span></div></body></html>

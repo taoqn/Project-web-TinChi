@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+/* 2013/09/24 11:30 */
+#divAbdBackgroundAdRight{position:absolute;right:0;overflow:hidden;z-index:1}
+#divAbdBackgroundAdLeft{position:absolute;left:0;overflow:hidden;z-index:1}
+#AbdBackgroundRightAd{right:0;overflow:hidden;z-index:1;top:0!important;position:fixed!important}
+#AbdBackgroundLeftAd{left:0;overflow:hidden;z-index:1;top:0!important;position:fixed!important}
+#AbdPopupAdOverLay{background: #000000;opacity: 0.6;filter: alpha(opacity=60);z-index: 2147483645!important;position: fixed;width:100%;height:100%;display:none;top:0;left:0}
+#AbdOverlay{z-index:2147483647!important; position:fixed;display:none;}
+.AbdPopupMax{position: fixed;right: 0px;width: 94px;cursor: pointer;height:66px;display:none;z-index: 2147483646;}
+#AbdPopupMaxBottom{background-image: url("../pic/balloon/popup_max_bottom.png");bottom: 0px;}
+#AbdPopupMaxTop{background-image: url("../pic/balloon/popup_max_top.png");top: 0px;}
+.AbdPopupAdLeft{height: 66px;position: fixed;left : 0px;width: 45px;z-index: 2147483646;}
+#AbdPopupAdLeftBottom{background: transparent url("../pic/balloon/popup_left_bottom.png") no-repeat 0 0;bottom: 0;}
+#AbdPopupAdLeftTop{background: transparent url("../pic/balloon/popup_left_top.png") no-repeat 0 0;top: 0;}
+.AbdPopupAdRight{height: 66px;position: fixed;right: 0px;width: 45px;z-index: 2147483646;}
+#AbdPopupAdRightBottom{background: transparent url("../pic/balloon/popup_right_bottom.png") no-repeat 0 0;bottom: 0;}
+#AbdPopupAdRightTop{background: transparent url("../pic/balloon/popup_right_top.png") no-repeat 0 0;top: 0;}
+.AbdPopupAdWrapper{height: 66px;position:fixed;left: 45px;right: 45px;z-index: 2147483646;}
+#AbdPopupAdWrapperBottom{background: transparent url("../pic/balloon/popup_wrapper_bottom.png") repeat-x 0 0;bottom: 0;}
+#AbdPopupAdWrapperTop{background: transparent url("../pic/balloon/popup_wrapper_top.png") repeat-x 0 0;top: 0;}
+.AbdPopupAdMin{float: right;position: fixed;right: 25px;cursor: pointer; display:block; background-image: url("../pic/balloon/popup_min.png"); width: 24px; height:28px;z-index: 2147483646;}
+#AbdPopupAdMinBottom{bottom: 3px;}
+#AbdPopupAdMinTop{top: 3px;}
+#AbdPopupAd{overflow:hidden;position:fixed;z-index:2147483640!important;display:block;}
+#AbdHtmlAd{overflow:hidden;position:fixed;bottom:0;display:block;right:0;z-index:2147483647!important}
+#AbdFloatingAd{width:260px;height:230px;overflow:hidden;bottom:0;z-index:2147483647!important}
+#FloatingAdControl {height: 30px;overflow: hidden;}
+.FloatingAdMaxright {background:url(../pic/balloon/bar_min_right.jpg) bottom left no-repeat;display: inline;float: left;height: 30px;}
+.FloatingAdMaxleft {background:url(../pic/balloon/bar_min_left.jpg) bottom left no-repeat;display: inline;float: left;height: 30px;}
+.FloatingAdCloseright {background-image: url("../pic/balloon/close_right.jpg");display: inline;float: left;height: 30px; width: 23px;}
+.FloatingAdCloseleft {background-image: url("../pic/balloon/close_left.jpg");display: inline;float: left;height: 30px; width: 23px;}
+.FloatingAdImage{width:260px;height:230px;background-image:url(../pic/balloon/balloon_loading_bg.gif);background-color:#FFF}
+#AbdSlidingAd{width:400px;height:246px;overflow:hidden;bottom:0;z-index:2147483647!important}
+#SlidingAdImage{width:370px;height:246px;background-image:url(../pic/sliding/sliding_loading_bg.gif);background-color:#FFF}
+#SlidingAdControl{width:30px;height:246px;float:left;display:inline;display:none;}
+.SlidingAdBarMintop{width:30px;height:223px;float:left;display:inline;background:url(../pic/sliding/bar_min_top.jpg) bottom left no-repeat}
+.SlidingAdBarMinbottom{width:30px;height:223px;float:left;display:inline;background:url(../pic/sliding/bar_min_bottom.jpg) bottom left no-repeat}
+.SlidingAdClosetop{background-image:url(../pic/sliding/close_top.jpg);width:30px;height:23px;float:left;display:inline}
+.SlidingAdClosebottom{background-image:url(../pic/sliding/close_bottom.jpg);width:30px;height:23px;float:left;display:inline}
+#divLK247BalloonAd,#divLK247SlidingAd,#divAbdBalloonAd,#divAbdSlidingAd,#divAbdPopupAd{overflow:hidden;position:fixed;bottom:0;z-index:2147483647!important;display:none}
+#divLK247BalloonHtmlAd,#divLK247SlidingHtmlAd{position:fixed;bottom:0;z-index:2147483647!important;display:none}
+#divLK247Overlay,#divAbdOverlay{display:none;z-index:2147483647!important}
+#trackIFrame,#track3rdImp,#trackGA{display:none !important;}
+.abdAdsBy{position: absolute; top: 0px; right: 0px; z-index: 9011; opacity: 0.8;}
+.abdButtonLink {display: block;width: 19px;height: 15px;background: url('../pic/inpage/ads_by.png') bottom right;text-indent: -99999px;}
+.abdButtonLink:hover {width: 112px;height: 15px;background-position: 0 0;}
+.abdMinButton{height: 22px;text-indent: -99999px;width: 22px;display:block;position:absolute;}
+#abdMinButtonright {background: url("../pic/ads_min_button_right.png") no-repeat;left:0px;}
+#abdMinButtonleft {background: url("../pic/ads_min_button_left.png") no-repeat;right:0px;}
+#abdMinButtontop {background: url("../pic/ads_min_button_top.png") no-repeat;}
+#abdMinButtonbottom {background: url("../pic/ads_min_button_bottom.png") no-repeat;}
+#abdInfo{width: 19px; height:15px; display:block;position:absolute;top:0px;}
+.abdInforight{background: url("../pic/ads_info_button_right.png") no-repeat;}
+.abdInfoleft{background: url("../pic/ads_info_button_left.png") no-repeat;}
+#likeFaceAmbientCover{width:120px; height:20px;position:fixed; z-index: 2147483646; overflow:hidden;}
+#likeFaceAmbientCover span{vertical-align: top !important;}
+#followTwitterAmbientCover{width:60px; height:20px;position:fixed; z-index: 2147483647; overflow:hidden;}

@@ -1,0 +1,251 @@
+#vtlaiReportBoxOverlay
+{
+	display: none;
+	position: fixed;
+	z-index: 2;
+	width: 100%;
+	height: 100%;
+	border: 0;
+	background-color: rgba(0,0,0,0.9);
+	top: 0px;
+	left: 0px;
+}
+#vtlaiReportLinkBox
+{
+	width: 800px;
+	max-width:  90%;
+	position: fixed;
+	z-index: 100;
+	margin: 0 0 0 50%;
+	top: 50px;
+	height: auto;
+	left: -400px;
+	display: none;
+	border: 1px solid #777575;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box; /* Firefox */
+	-webkit-box-sizing:border-box; /* Safari */
+	background-color: #FFF;
+}
+#vtlaiReportLinkBox a
+{
+	cursor: pointer;
+}
+#vtlaiReportLinkBox h4
+{
+	display: block;
+	background-color: #777575;
+	padding: 10px;
+	text-align: left;
+	font-weight: bold;
+	color: #FFF;
+	font-size: 14pt;
+}
+
+#vtlaiReportLinkBox h4 .close
+{
+	display: block;
+	text-align: center;
+	font-weight: bold;
+	color: #FFF;
+	font-size: 14pt;
+	float: right;
+	cursor: pointer;
+}
+#vtlaiReportLinkBox h4 .close:hover
+{
+	color: #D8D810;
+}
+#vtlaiReportLinkBox #reportContentBox
+{
+	display: block;
+	margin: 10px;
+	overflow: auto;
+	background-color: #FFF;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box; /* Firefox */
+	-webkit-box-sizing:border-box; /* Safari */
+	font-size: 13px;
+}
+#vtlaiReportLinkBox #reportContentBox .info
+{
+	line-height: 1.3;
+	margin: 5px 0;
+	font-size: 13px;
+	font-weight: normal;
+	font-family: Arial,Tahoma,San-Serif;
+	display: block;
+}
+#vtlaiReportLinkBox label
+{
+	display: block;
+	margin: 3px 0 10px 0;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box; /* Firefox */
+	-webkit-box-sizing:border-box; /* Safari */
+	font-size: 13px;
+	font-weight: bold;
+}
+#vtlaiReportLinkBox #lblFullName,
+#vtlaiReportLinkBox #lblEmail
+{
+	display: inline-block;
+	width: 49%;
+	margin: 3px 0 10px 0;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box; /* Firefox */
+	-webkit-box-sizing:border-box; /* Safari */
+	font-size: 13px;
+	font-weight: bold;
+}
+#vtlaiReportLinkBox #lblEmail
+{
+	margin-left: 1%;
+}
+#vtlaiReportLinkBox #reportReason,
+#vtlaiReportLinkBox #reportReasonMore,
+#vtlaiReportLinkBox #reportFullName,
+#vtlaiReportLinkBox #reportEmail
+{
+	display: block;
+	padding: 5px;
+	width: 100%;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box; /* Firefox */
+	-webkit-box-sizing:border-box; /* Safari */
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	border: 1px solid #CCC;
+	font-size: 13px;
+	font-weight: normal;
+	margin-top: 6px;
+}
+
+#vtlaiReportLinkBox #reportContent
+{
+	display: block;
+	padding: 5px;
+	width: 100%;
+	height: 150px;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box; /* Firefox */
+	-webkit-box-sizing:border-box; /* Safari */
+	border: 1px solid #CCC;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	font-size: 13px;
+	font-weight: normal;
+	resize: none;
+}
+
+#vtlaiReportLinkBox .submit
+{
+	display: block;
+	float:right;
+	padding: 10px 15px;
+	margin: 0;
+	background-color: #25AAE1;
+	color: #FFF;
+	text-decoration: none;
+	overflow: visible;
+	cursor: pointer;
+	border: 0;
+	clear: both;
+}
+#vtlaiReportLinkBox .submit.loading
+{
+	background-image: url('../images/misc/progress.gif');
+	background-repeat: no-repeat;
+	background-position: 10px center;
+	padding-left: 40px;
+}
+#vtlaiReportLinkBox .submit:hover
+{
+	background-color: #EF3F36;
+	text-decoration: none;
+	color: #FFF;
+}
+
+.reportlink_control
+{
+	box-sizing:border-box;
+	-moz-box-sizing:border-box; /* Firefox */
+	-webkit-box-sizing:border-box; /* Safari */
+	display: none;
+	background-color: #F1F1F1;
+	padding: 5px;
+	text-decoration: none;
+	border: 1px solid #CCC;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	position: fixed;
+	top: 45px;
+	right: 5px;
+	z-index: 99;
+	/* position: absolute;
+	top: 5px;
+	right: 5px; */
+	
+/* 	opacity:0.0;
+	filter:alpha(opacity=00);
+
+	transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s;*/
+}
+.postcontent:hover .reportlink_control
+{
+	/* display: inline-block; */
+/* 	opacity:1.0;
+	filter:alpha(opacity=100);
+	
+	transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s;*/
+}
+.reportlink_btn
+{
+	font-size: 13px;
+	font-family: Arial,tahoma,San-serif;
+	display: inline-block;
+	padding: 5px 10px 5px 20px;
+	background: url(../skin/SinhVienIT.Net-IT_Pro-Ver4/images/icon.png) -385px -217px no-repeat;
+	margin: 0;
+	color: #666;
+	text-decoration: none;
+	font-weight: bold;
+	cursor: pointer;
+
+}
+.reportlink_btn:hover
+{
+	/* background: #008EFF; */
+	color: #000;
+	text-decoration: none ;
+}
+
+.updatelink_btn
+{
+	font-size: 13px;
+	font-family: Arial,tahoma,San-serif;
+	display: inline-block;
+	padding: 5px 10px 5px 30px;
+	background: url(../skin/SinhVienIT.Net-IT_Pro-Ver4/images/icon.png) -375px -243px no-repeat;
+	margin: 0;
+	border-left: 1px solid #CCC;
+	color: #666;
+	text-decoration: none;
+	font-weight: bold;
+	cursor: pointer;
+}
+.updatelink_btn:hover
+{
+	/* background: #008EFF; */
+	color: #000;
+	text-decoration: none ;
+}

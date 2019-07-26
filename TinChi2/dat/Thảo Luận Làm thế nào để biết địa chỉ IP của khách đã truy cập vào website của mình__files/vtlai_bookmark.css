@@ -1,0 +1,66 @@
+/*vt.Lai Bookmark style*/
+#vtlai_bookmark
+{
+	display: block;
+	width: 82px;
+	overflow: hidden;
+	background-color: #F0F0F0;
+	position: fixed;
+	top: 50px;
+	left: 5000px;
+}
+#vtlai_bookmark .inner
+{
+	display: block;
+	margin: 4px;
+	border: 1px dashed #c6c6c6;
+}
+#vtlai_bookmark .inner .container
+{
+	display: block;
+	margin: 4px;
+	border: 0;
+	background-color: #FFF;
+}
+#vtlai_bookmark .inner .container .item
+{
+	display: block;
+	text-align: center;
+	padding: 9px 0;
+	border-bottom: 1px solid #eeeeee;
+	overflow-x: hidden;
+	box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	-o-box-sizing: content-box;
+}
+#vtlai_bookmark .inner .container .last
+{
+	border: 0 !important;
+}
+#vtlai_bookmark .inner .container .bookmark
+{
+	display: block;
+	height: 50px;
+	background: url(../skin/SinhVienIT.Net-IT_Pro-Ver4/images/icon.png) -317px -95px no-repeat;
+	cursor: pointer;
+}
+#vtlai_bookmark .inner .container .bookmark:hover
+{
+	background-position: -317px -36px;
+}
+#vtlai_bookmark .inner .container .inbookmark
+{
+	display: block;
+	height: 50px;
+	background: url(../skin/SinhVienIT.Net-IT_Pro-Ver4/images/icon.png) -317px -36px no-repeat;
+	cursor: pointer;
+}
+#vtlai_bookmark .inner .container .inbookmark:hover
+{
+	background-position: -317px -95px;
+}
+#vtlai_bookmark .inner .container .savingbookmark,#vtlai_bookmark .inner .container .loading
+{
+	background: url(../images/misc/progress.gif) center center no-repeat !important;
+}

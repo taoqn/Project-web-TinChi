@@ -1,0 +1,204 @@
+var css = document.createElement('link'), html_doc = document.getElementsByTagName('head')[0];
+css.rel = 'stylesheet';
+css.rev = 'stylesheet';
+css.type = 'text/css';
+css.href = 'http://media.adnetwork.vn/'+'css/adnetwork.css';
+html_doc.appendChild(css);
+function trackingAbdImpressions1446620864()
+{
+    AbdVNPCTracking.Impression({'cid':1445582871, 'bid':1446620864, 'pid':1330501337, 'wid':1385700597, 'zid':1385973822, 'imp':'8d6zk30gial', 'sid':'1siazmuzbkx' });
+    
+}
+function trackingAbdClick1446620864()
+{
+    
+    AbdVNPCTracking.Click({'cid':1445582871, 'bid':1446620864, 'pid':1330501337, 'wid':1385700597, 'zid':1385973822, 'sid':'1siazmuzbkx', 'rd':(''!=''?1:0) });
+}
+function trackingAbdClick3rd1446620864()
+{
+    
+}
+function trackingAbdVideoMetrics1446620864(len, type){
+    AbdVNPCTracking.VideoMetric({'cid':1445582871, 'bid':1446620864, 'pid':1330501337, 'wid':1385700597, 'zid':1385973822, 'vtype':type, 'vlen':len, 'imp':'8d6zk30gial' });
+}
+function trackingAbdVideoMetrics(len, type){
+	trackingAbdVideoMetrics1446620864(len, type);
+}
+function trackingAbdInteraction1446620864(name, rd){
+    AbdVNPCTracking.Interaction({'cid':1445582871, 'bid':1446620864, 'pid':1330501337, 'wid':1385700597, 'zid':1385973822, 'sname':name, 'icustom':1, 'imp':'8d6zk30gial', 'rd':rd });
+}
+function trackingAbdInteraction(name, rd){
+	trackingAbdInteraction1446620864(name, rd);
+}
+function trackingHtml(url){
+    AbdVNPC.trackingLink('GA', url);
+}
+
+function trackingClickserving(){
+    trackingAbdClick1446620864();
+}
+
+// ----- include common templates ---- //
+function showButtonSocial1446620864(){
+    var sPos = 'right-bottom';
+    var iWidth = 300;
+    var iHeight = 250;
+    
+    
+    
+    AbdVNPC.hideButtonSocial();
+}
+function showAbdPopupAd1446620864(){
+    var eWidth = 0;
+    var eHeight = 0;
+    var iWidth = 300;
+    var iHeight = 250;
+    var sPos = 'right-bottom';
+    
+    AbdVNPC.generatorHtmlAd(1446620864, '\x3Cscript src\x3D\x22http://media.adnetwork.vn/html5/js/servingMM.CPA.js\x22\x3E \x3C/script\x3E\x3Cscript src\x3D\x22http://bs.serving-sys.com/BurstingPipe/adServer.bs?cn\x3Drsb\x26c\x3D28\x26pli\x3D15401097\x26PluID\x3D64\x26w\x3D1\x26h\x3D1\x26ord\x3D1448626470014\x26ucm\x3Dtrue\x22\x3E\x3C/script\x3E\x3Cnoscript\x3E\x3Ca href\x3D\x22http://bs.serving-sys.com/BurstingPipe/adServer.bs?cn\x3Dbrd\x26FlightID\x3D15401097\x26Page\x3D\x26PluID\x3D64\x26Pos\x3D1794144096\x22 target\x3D\x22_blank\x22\x3E\x3Cimg src\x3D\x22http://bs.serving-sys.com/BurstingPipe/adServer.bs?cn\x3Dbsr\x26FlightID\x3D15401097\x26Page\x3D\x26PluID\x3D64\x26Pos\x3D1794144096\x22 border\x3D0 width\x3D300 height\x3D250\x3E\x3C/a\x3E\x3C/noscript\x3E', 'popup', iWidth, iHeight);
+    
+    AbdVNPC.showPopupAd('AbdPopupAd', sPos, iWidth, iHeight, eWidth, eHeight, 'abdPopup1446620864', 'min', 30000, 900000);
+    AbdVNPC.showButtonSocial();
+}
+function minAbdPopupAd1446620864(){
+    var sPos = 'right-bottom';
+    AbdVNPC.rectAd('AbdPopupAd', 'top-down', sPos, 'min', 300, 250, 0, 0, 30);
+    AbdVNPC.hideButtonSocial();
+}
+function restoreAbdPopupAd1446620864(){
+    var sPos = 'right-bottom';
+    AbdVNPC.rectAd('AbdPopupAd', 'top-down', sPos, 'max', 300, 250, 0, 0, 30);
+    AbdVNPC.showButtonSocial();
+}
+function closeAbdPopupAd1446620864(){
+    AbdVNPC.closeAd('AbdPopupAd', 900000, 'showAbdPopupAd1446620864');
+}
+function setAbdDelay1446620864(){
+    AbdVNPC.setDelay('abdPopup1446620864', 'min', 30000, 900000);
+}
+function clearAbdDelay1446620864(){
+    AbdVNPC.clearDelay();
+}
+function showAbdOverlay1446620864(){
+    AbdVNPC.generatorFlashAd('AbdOverlay', 'abdOverlay1446620864', 0, 0, 0, 0, '', '', '', 1445582871, 1446620864, 1330501337, 1385700597, 1385973822, 'popup', '', 'phimmoi.net', '', 'opaque', 'VN', '', '', '', '');
+    AbdVNPC.showOverlay('abdOverlay1446620864', 'center', 0, 0, 2, '');
+    AbdVNPC.hideButtonSocial();
+}
+function replayAbdOverlay1446620864(){
+    AbdVNPC.replayOverlay('AbdPopupAd', 1000, 'showAbdOverlay1446620864', 'popup');
+}
+function changeAbdBgOverlay1446620864(time, overlay, showAds){
+    AbdVNPC.changeBgOverlay(time, overlay, showAds, 'showAbdPopupAd1446620864', 'popup', 'center');
+}
+function closeAbdBgOverlay1446620864(){
+    AbdVNPC.changeBgOverlay(0, 0, 1, '', 'popup', 'center');
+}
+function setAbdExpand1446620864(){
+    var sPos = 'right-bottom';
+    AbdVNPC.rectExpand('AbdPopupAd', 'ex', sPos, 300, 250, 0, 0);
+}
+function setAbdPre1446620864(){
+    var sPos = 'right-bottom';
+    AbdVNPC.rectExpand('AbdPopupAd', 'pre', sPos, 300, 250, 0, 0);
+}
+function minAbdBalloonAd1446620864(){
+    minAbdPopupAd1446620864();
+}
+function restoreAbdBalloonAd1446620864(){
+    restoreAbdPopupAd1446620864();
+}
+function closeAbdBalloonAd1446620864(){
+    closeAbdPopupAd1446620864();
+}
+function minLK247BalloonAds(){
+    minAbdPopupAd1446620864();
+}
+function maxLK247BalloonAds(){
+    restoreAbdPopupAd1446620864();
+}
+function closeLK247BalloonAds(){
+    closeAbdPopupAd1446620864();
+    AbdVNPC.show('eyeDiv');
+}
+function expand(){
+    setAbdExpand1446620864();
+}
+function preexpand(){
+    setAbdPre1446620864();
+}
+function preexpandFooter1446620864(w, h){
+    var sPos = 'right-bottom';
+    AbdVNPC.rectExpand('AbdPopupAd', 'pre', sPos, w, h, 0, 0);
+}
+function expandFooter1446620864(){
+    var sPos = 'right-bottom';
+    AbdVNPC.rectExpand('AbdPopupAd', 'ex', sPos, 0, 0, 0, 0);
+}
+function minPopupBottom(){
+    AbdVNPC.minPopupBottom('AbdPopupAd', 0);
+}
+function maxPopupBottom(){
+    AbdVNPC.maxPopupBottom('AbdPopupAd');
+    
+}
+function controlPositionBTNFaceBook1446620864(showF, xF, yF){
+    var sPos = 'right-bottom';
+    AbdVNPC.initButtonLike('likeFaceAmbientCover', 120, 20, showF, sPos, xF, yF);
+}
+function controlPositionBTNFaceBook(showF, xF, yF){
+    controlPositionBTNFaceBook1446620864(showF, xF, yF);
+}
+function controlPositionButtonSocial1446620864(showF, type, xF, yF){
+    var sPos = 'right-bottom';
+    if (type == 'facebook')
+        AbdVNPC.initButtonSocial('likeFaceAmbientCover', 120, 20, showF, sPos, xF, yF);
+    else if (type == 'youtube'){
+        AbdVNPC.initButtonSocial('youtubeAmbientCover', 125, 22, showF, sPos, xF, yF);
+    } else{
+        AbdVNPC.initButtonSocial('followTwitterAmbientCover', 60, 20, showF, sPos, xF, yF);
+    }
+}
+function controlPositionButtonSocial(showF, type, xF, yF){
+    controlPositionButtonSocial1446620864(showF, type, xF, yF);
+}
+showButtonSocial1446620864();
+
+showAbdPopupAd1446620864();
+
+
+trackingAbdImpressions1446620864();
+
+
+// ----BOTTOM----//
+if(AbdVNPC.getCookie('_abd_mck')=='' && /(iPhone|iPad|iPod).+OS\s(7|8|9|10)/i.test(navigator.userAgent)
+    && navigator.userAgent.indexOf('Safari')!=-1 && navigator.userAgent.indexOf('Chrome')==-1){
+  AbdVNPC.trackingLink('MMC','//delivery.adnetwork.vn/mck.html');
+  AbdVNPC.setCookie('_abd_mck', '1', 365);
+}
+var _comscore = _comscore || [];
+_comscore.push({ c1: "8", c2: "12346470" ,c3: "1000000000000000018" ,c4: "phimmoi.net" ,c6: "Popup" });
+(function() {
+var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+el.parentNode.insertBefore(s, el);
+})();
+
+
+
+AbdVNPC.trackingLink('GA', 'http://analytics.ambient-platform.com/analytics_vn.html?utm_campaign=Ambient_VN&utm_source=online_entertainment&utm_medium=phimmoi.net&utm_content=Popup');
+
+
+
+var sMarket = 9;
+//-- document.write('<scr'+'ipt language="JavaScript" type="text/javascript" src="//js.revsci.net/gateway/gw.js?csid=F09828&auto=t&bpid=ambientvn"></scr'+'ipt>'); --//
+
+var MQTracker = MQTracker || [];
+MQTracker.push({ acc: sMarket, uid: "1siazmuzbkx" });
+(function(){
+var c=document.createElement('script');c.type='text/javascript';c.async=true;
+c.src=('https:' == document.location.protocol ? 'https://' : 'http://') + 'static.mediaquark.com/tracker.js';
+var el=document.getElementsByTagName('script')[0];el.parentNode.insertBefore(c,el);
+})();
+
+
+

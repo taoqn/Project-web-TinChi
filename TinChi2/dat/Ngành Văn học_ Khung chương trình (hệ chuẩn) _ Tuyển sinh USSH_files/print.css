@@ -1,0 +1,96 @@
+@media only print {
+	body {
+		font-family: "Times New Roman", serif;
+		font-size: 12pt;
+	}
+
+	a {
+		color:black;
+	}
+
+	header img,
+	#search-top,
+	nav,
+	.sidebar,
+	.cycle-slideshow,
+	.bawmrp,
+	.fb_iframe_widget span {
+		display: none !important;
+	}
+
+	.for-print {
+		display: inherit !important;
+	}
+
+	#header {
+		border-bottom: 1pt solid #c0c0c0;
+	}
+
+	#header h1, #header p {
+		margin: 3pt 0;
+	}
+	#header h1 {
+		font-size: 130%;
+	}
+
+	.responsiveSelectContainer {
+		display:none !important;
+	}
+
+	h1 a, h2 a, h3 a, header a {
+		text-decoration: none;
+	}
+
+	#footer {
+		border-top: 1pt solid black;
+		padding-top: 1em;
+	}
+	#footer h2 {
+		font-size: 100%;
+		margin:5pt 0;
+	}
+
+	h1,h2,h3,h4,h5,h6,p {
+		text-align: justify;
+	}
+	h1,h3,h3,h4,h5,h6 {
+		page-break-after:avoid;
+	}
+
+	td, th {
+		page-break-inside: avoid;
+	}
+
+	p, ul, ol, table {
+		margin: .3em 0;
+	}
+
+	table {
+		border-collapse: collapse;
+		border-spacing: 0;
+	}
+
+	table td, table th {
+		padding: 2px;
+		border:1pt solid black;
+	}
+	table thead * {
+		font-weight: bold;
+	}
+
+	thead {display: table-header-group !important;}
+
+	.byline {
+		margin-bottom: 2em;
+	}
+
+	.entry p a[href^="http://"]:after {
+		content: " (" attr(href) ")";
+		font-size: 90%;
+	}
+
+	.entry td p a:after,
+	.entry p a[href^="#"]:after {
+		display: none;
+	}
+}

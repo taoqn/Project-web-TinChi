@@ -1,0 +1,53 @@
+/* ===Spoiler	by: Vũ Thanh Lai - SinhVienIT.Net === */
+.spoiler-wrap {
+	width: 95%;
+	margin: 6px auto;
+	clear: both;
+	background: #E9E9E6;
+	border: 1px solid #C3CBD1;
+	font-family: inherit;
+}
+.spoiler-head {
+	font-size: 14px;
+	padding: 5px;
+	line-height: 15px;
+	font-weight: bold;
+	font-family: Arial, Verdana, Tahoma;
+}
+.spoiler-head  .title
+{
+	margin-top:5px;
+	padding: 0px;
+	display: block;
+	float:left;
+}
+.spoiler-head .spoilerbtn
+{
+	display:block;
+	float:right; 
+	font-size: 12px;
+	padding: 5px 10px;
+	background-color: #25AAE1;
+	color: #FFF !important;
+	text-decoration: none !important;
+	cursor: pointer;
+}
+.spoiler-head .spoilerbtn:hover
+{
+	background-color: #03B4FD;
+	color: #FFF !important;
+	text-decoration:  none;
+}
+.spoiler-wrap .clear
+{
+	clear: both;
+	height: 0px;
+	line-height: 0px;
+}
+.spoiler-body {
+	clear: both;
+	padding: 5px;
+	display: none;
+	border-top: 1px solid #C3CBD1;
+	background: #FFF;
+}
